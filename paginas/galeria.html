@@ -3,50 +3,151 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>MALASAÑA BAR, galeria imagenes</title>
-    <link rel="stylesheet" href="../css/diseños.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/estilos.css">
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Varela+Round&display=swap" rel="stylesheet">
     <meta name="keywords" content="bar, tragos, hamburguesas, saludable, sangria, vino, vermut, wioming, malasaña, pinkcoco, imagenes">
     <meta name="description" content="MALASAÑA ES UNA GALERIA COMPUESTA POR TRES PUESTOS PENSADOS PARA SATIFACER TODAS TUS NECESIDADES, COMIDA SALUDABLE, HAMBURGUESAS Y TRAGOS">
 </head>
-<body class="fondoBodyGaleria imagenDeColor">
-    <header>
-        <div><img src="../multimedia/malasaña logo chico.jpg" alt="imagen logo de malasaña bar" style="height: 250px;"class="imagenLogo"></div>
-        <H1>GALERIA</H1>
-    <section>
-       <nav class="colorFondoMenu" class= "navGrilla"> 
-           <ul> 
-            <li><a href="../index.html">HOME</a></li>
-            <li><a href="origen.html">ORIGEN</a></li>
-            <li><a href="Nosotros.html">NOSOTROS</a>
-                <ul>
-                    <li><a href="../multimedia/pinkcoco logo.jpg"> PINKCOCO</a></li>
-                    <li><a href="../multimedia/wioming logo.jpg">wioming</a></li>
-                    <li><a href="../multimedia/malasaña logo chico.jpg">MALASAÑA</a></li>
-                </ul>
+<body class="colorFondoBody"><!-------------INICIA BODY------------------------------->
+<header><!---------------INICIA HEADER--------------------------------------------------------------->
+    <div><img src="../multimedia/malasana logo chico.jpg" alt="imagen logo de malasaña bar" style="height: 250px;"class="imagenLogo"></div>
+    <br>
+    <H1>GALERIA</H1>
+    <br>
+    <nav class= "container"><!--Navegador de la pagina--> 
+        <ul class= "row">
+            <li class="col-md-4" class="nav-item">
+                <a class="nav-link" href="../index.html">HOME</a>
             </li>
-            <li><a href="Menu.html">NUESTRAS PROPUESTAS</a></li>
-            <li><a href="Contacto.html">CONTACTO</a></li>
+            <li class="col-md-4"class="nav-item">
+                <a class="nav-link" href="origen.html">ORIGEN</a>
+            </li>
+            <li class="col-md-4"class="nav-item">
+                <a class="nav-link" href="puestos.html">PUESTOS</a>
+            </li>
+            <li class="col-md-4"class="nav-item">
+                <a class="nav-link" href="menu.html">MENU</a>
+            </li>
+            <li class="col-md-4"class="nav-item">
+                <a class="nav-link" href="galeria.html">GALERIA</a>
+            </li>
+            <li class="col-md-4"class="nav-item">
+                <a class="nav-link" href="contacto.html">CONTACTO</a>
+            </li>
         </ul>
-    </nav>
+        </nav>
     </header>
-    
-    <main>
-    
+    <br>
+    <main class="container-fluid"><!---------------------INICIA MAIN-------------------------------------------->
+        <div class="sticky-bottom"><!--boton whattsapp-->
+            <a href="https://web.whatsapp.com/"> <img src="../multimedia/R.png" width="80px" alt="boton whatsapp"> </a>
+        </div>
+    <section class="row">
+        <div class="col-md-2" class="transformacionesImagenes">
+            <img src="../multimedia/madridnegro.png"height="100%" width="100%" >
+        </div>
+        <div class="col-md-2"class="transformacionesImagenes" >
+            <img src="../multimedia/gato malasana.png"height="100%" width="100%">
+        </div>
+        <div class="col-md-2"class="transformacionesImagenes">
+            <img src="../multimedia/metro azul.png" class="transformacionesImagenes"width="100%" height="100%">
+        </div>
+        <div class="col-md-2">
+            <img src="../multimedia/manuela malasana.jpg"class="transformacionesImagenes" height="100%" width="100%">
+        </div>
+        <div class="col-md-2">
+            <img src="../multimedia/bandera de madrid.png" height="100%" width="100%">
+        </div>
+        <div class="col-md-2">
+            <img src="../multimedia/madridblanco.png" height="100%" width="100%">
+        </div>
     </section>
-    <main class="padre">
-        <div class="azul"><img src="../multimedia/bandera de madrid.png"height="250px" width="330" ></div>
-        <div class="amarillo"><img src="../multimedia/gato malasaña.png"height="100%" width="100%"></div>
-        <div class="gris"><img src="../multimedia/metro azul.png" width="100%" height="100%"></div>
-        <div class="rojo"><img src="../multimedia/manuela malasaña.jpg" height="100%" width="100%"></div>
-        <div class="verde"><img src="../multimedia/atilio malasaña.png" height="100%" width="50%"></div>
-    </main>
-    <footer class="ft">
-        <div><img src="../multimedia/facebook redondo.webp" style="height: 50px;">  Galeria Malasaña</div>
-        <div><img src="../multimedia/intagram redondo.webp" style="height: 50px;">@galeriamalasana </div> 
-        <div><img src="../multimedia/location icon.png" style= "height:50px;"> Avila y Zarate Nº 2137</div>
-    </footer>
+<br>
+<br>
+    <section clas="container-fluid">
+        <div class="row">
+            <div id="carouselExampleControls" class="col-md-6" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="../multimedia/morocha galeria.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../multimedia/mesa 8.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../multimedia/cerveza sirviendo.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../multimedia/selfie mesa 3.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../multimedia/hamburguesas .jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../multimedia/aperol.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../multimedia/gin los apostoles barra.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">ANTERIOR</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">SIGUIENTE</span>
+                        </button>
+                    </div>
+            
 
+                    <div id="carouselExampleControls" class="col-md-6" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="../multimedia/malasana mesa1.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../multimedia/trago barra.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../multimedia/festeja tu cumple.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../multimedia/hamburguesa.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../multimedia/trago arandanos.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../multimedia/wrap .jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+    <footer class="footerDireccion"><!---------------------------INICIO FOOTER----------------------------------------------------------->
+        <div>  
+            <img src="../multimedia/facebook-new.png" style="height: 70px;"> Galeria Malasaña
+        </div> 
+        <div>
+            <img src="../multimedia/instagram.png" style="height: 70px;"> @galeriamalasana 
+        </div>
+        <div>
+            <img src="../multimedia/maps.png" style="height: 70px;"> Avila y Zarate Nº 2137
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 </body>
 </html>
