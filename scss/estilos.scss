@@ -1,0 +1,286 @@
+
+.imagenLogo {
+	border-radius: 300px 300px 300px 300px;
+	border: rgb(226, 226, 6) solid 4px;
+	display: block;
+	margin: auto;
+}
+ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	text-align: center;
+	position: relative;
+	list-style-type: none;
+	padding: 0px;
+	margin: 20px;
+	li {
+		flex-grow: 1;
+		position: relative;
+		display: inline-block;
+		a {
+			text-align: center;
+			text-decoration:none;
+			padding: 10px;
+			margin: 15px;
+			color: white;
+			background-color:rgba(3, 3, 51, 0.925);
+			border-radius: 100px 100px 100px 100px;
+			border: rgb(218, 218, 6) solid 3px;
+			font-family: "confotaa", sans-serif;
+			font-size: 17px;
+		}
+		&:hover {
+			ul {
+				display: block;
+			}
+		}
+	}
+	ul {
+		position: absolute;
+		display: none;
+		li {
+			display: block;
+		}
+	}
+}
+h1 {
+	font-family: "comfortaa", sans-serif;
+	padding: 30px 20px 30px 20px;
+	margin: 10px 5px 10px 5px;
+	color: rgba(0, 0, 0, 0.774);
+	font-size: 40px;
+	text-align: center;
+	text-decoration-style: solid;
+	text-transform: none;
+	background-color: rgba(255, 255, 255, 0.952);
+	border-radius: 15px;
+	border: rgba(0, 0, 0, 0.925) solid 5px;
+}
+h2 {
+	padding: 20px 15px 20px 15px;
+	margin: 5px 5px 5px 5px;
+	color: rgb(139, 17, 42);
+	font-size: 35px;
+	font-weight: 350;
+	font-family: "https://fonts.google.com/specimen/Tourney";
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration-style: solid;
+	letter-spacing: 0px 5;
+}
+h3 {
+	background-color: rgba(240, 248, 255, 0.863);
+	padding: 10px 10px 10px 10px;
+	margin: 5px 5px 5px 5px;
+	color: rgba(0, 0, 0, 0.938);
+	border-radius: 20px;
+	font-size: 25px;
+	font-family: 'anton', sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration-style: solid;
+	letter-spacing: 0px 5;
+}
+h4 {
+	font-family: "comfortaa", sans-serif;
+	text-decoration-style: solid;
+	text-transform: uppercase;
+	text-align: justify;
+	font-size: 25px;
+	color: rgba(22, 22, 22, 0.959);
+}
+p {
+	padding: 10px 10px 10px 10px;
+	margin: 5px 5px 5px 5px;
+}
+table {
+	margin: 20px;
+	padding: 15px;
+	width: 95vw;
+	height: 33vw;
+}
+th {
+	font-family: "comfortaa", sans-serif;
+	text-decoration-style: solid;
+	text-transform: uppercase;
+	text-align: center !important;
+	color: black;
+	font-size: 25px;
+	background-image: linear-gradient(to top, rgba(253, 250, 250, 0.945), rgba(247, 247, 152, 0.973));
+	border: black solid 5px !important;
+	border-radius: 10px;
+}
+td {
+	padding: 5px 5px 5px 5px;
+	margin: 5px 5px 5px 5px;
+	color: black;
+	font-family: "comfortaa", sans-serif;
+	font-size: 20px;
+	background-image: linear-gradient(to top, rgba(253, 250, 250, 0.952), rgba(247, 247, 152, 0.973));
+	text-decoration-style: solid;
+	text-transform: uppercase;
+	text-align: center !important;
+	border: black solid 5px !important;
+}
+div {
+	img {
+		border-radius: 20px;
+		display: inline-block;
+	}
+}
+img {
+	display: inline-block;
+	border-radius: 20px;
+}
+footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding: 15px;
+	margin-top: 20px;
+	border-radius: 20px;
+	border:rgba(0, 0, 0, 0.918) solid 5px;
+	background-color:rgba(255, 255, 255, 0.932);
+	height: auto;
+	color: black;
+	font-size: 20px;
+	font-family: "comfortaa", sans-serif;
+	text-decoration-style: solid;
+	text-transform: uppercase;
+	
+}
+section {
+	image {
+		margin: 10px;
+		padding: 10px;
+		border: black solid 8px;
+	}
+}
+.colorFondoBody {
+	background-image: url(../multimedia/ojos.jpg);
+}
+.videoDeOrigen {
+	padding: opx;
+	height: 100%;
+	background-image: linear-gradient(to top, rgba(253, 250, 250, 0.644), rgba(247, 247, 152, 0.849));
+	border-radius: 20px;
+	border: rgba(14, 14, 13, 0.877) solid 8px;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+}
+.menuOrden {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: flex-start;
+	display: inline-block;
+}
+.pregunta {
+	font-size: 30px;
+	font-family: "comfortaa", sans-serif;
+	background-color: rgba(255, 255, 255, 0.952);
+	border-radius: 20px;
+	border: black solid 5px;
+	text-align: center;
+}
+.contacto {
+	padding: 20px;
+	margin: 20px;
+	background-image: linear-gradient(to top, rgba(253, 250, 250, 0.644), rgba(247, 247, 152, 0.973));
+	border-radius: 20px;
+	border: black solid 5px;
+	text-align: center;
+}
+form {
+	input {
+		padding: 20px;
+		margin: 20px;
+		background-color: rgba(228, 70, 13, 0.733);
+		border-radius: 20px;
+		border: black solid 5px;
+		text-align: center;
+	}
+	select {
+		padding: 20px;
+		margin: 20px;
+		background-color: rgba(14, 83, 100, 0.534);
+		border-radius: 20px;
+		border: black solid 5px;
+		text-align: center;
+	}
+	div {
+		textarea {
+			padding: 20px;
+			margin: 20px;
+			background-color: rgba(14, 83, 100, 0.534);
+			border-radius: 20px;
+			border: black solid 5px;
+			text-align: center;
+		}
+	}
+}
+.nosotros {
+	margin-top: 15px;
+	border: none;
+}
+.diseñoBoton {
+	padding: 10px;
+	margin: 15px;
+	text-decoration: none;
+	color: whitesmoke;
+	background-color: rgb(247, 100, 47);
+	border-radius: 100px 100px 100px 100px;
+	border: rgb(167, 151, 151) solid 0,75px;
+	font-family: "confotaa", sans-serif;
+	font-size: 30px;
+	font-weight: 30px;
+}
+.sticky-bottom{
+    position: fixed;
+    top: 580px;
+    right: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    z-index: 1;
+    }
+.pedidos{
+	padding: 15px;
+	margin: 15px;
+	background-color: rgba(49, 122, 146, 0.815);
+	border-radius: 15px;
+	border: rgba(0, 0, 0, 0.884) solid 5px;
+}
+@media only screen and (max-width:750px ){
+	footer {
+		display: block;
+		justify-content: center;
+		text-align: center;
+	}
+	th{ 
+		display: block;
+		margin: auto;
+		width: 74%;
+		height: 75%;	
+		justify-content: center;
+		background-color: rgba(255, 0, 0, 0.671);
+	}
+	td{
+		display: block;
+		margin: auto;
+		width: 75%;
+		height: 75%;
+		justify-content: center;
+	} 
+	section div img{
+		height: 50%;
+		width: 50%;
+		display: block;
+		margin: auto;
+	}
+	form div textarea{
+		width: 75%;
+		justify-content: center;
+	}
+}	                 
